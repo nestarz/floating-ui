@@ -1,5 +1,12 @@
 # @floating-ui/react
 
+## 0.26.13
+
+### Patch Changes
+
+- fix(types): replace `React_2` with `React` in generated .d.ts files
+- fix(types): revert `React.JSX.Element` back to `JSX.Element`
+
 ## 0.26.12
 
 ### Patch Changes

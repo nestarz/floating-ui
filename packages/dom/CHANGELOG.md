@@ -1,5 +1,12 @@
 # @floating-ui/dom
 
+## 1.6.4
+
+### Patch Changes
+
+- fix: avoid spreading rects to support `DOMRect` types
+- fix(types): use DOM Derivable type
+
 ## 1.6.3
 
 ### Patch Changes

@@ -1,6 +1,6 @@
-export {arrow} from './arrow';
-export type * from './types';
-export {useFloating} from './useFloating';
+export {arrow} from './arrow.ts';
+export type * from './types.ts';
+export {useFloating} from './useFloating.ts';
 export {
   autoPlacement,
   autoUpdate,

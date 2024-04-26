@@ -1,5 +1,7 @@
 import {computePosition} from '@floating-ui/dom';
+// @deno-types="npm:@types/react@^18.2.0"
 import * as React from 'react';
+// @deno-types="npm:@types/react-dom@^18.2.0"
 import * as ReactDOM from 'react-dom';
 import useModernLayoutEffect from 'use-isomorphic-layout-effect';
 
@@ -9,11 +11,11 @@ import type {
   UseFloatingData,
   UseFloatingOptions,
   UseFloatingReturn,
-} from './types';
-import {deepEqual} from './utils/deepEqual';
-import {getDPR} from './utils/getDPR';
-import {roundByDPR} from './utils/roundByDPR';
-import {useLatestRef} from './utils/useLatestRef';
+} from './types.ts';
+import {deepEqual} from './utils/deepEqual.ts';
+import {getDPR} from './utils/getDPR.ts';
+import {roundByDPR} from './utils/roundByDPR.ts';
+import {useLatestRef} from './utils/useLatestRef.ts';
 
 /**
  * Provides data to position a floating element.

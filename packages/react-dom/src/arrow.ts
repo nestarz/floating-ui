@@ -1,5 +1,6 @@
 import type {Derivable, Middleware, Padding} from '@floating-ui/dom';
 import {arrow as arrowCore} from '@floating-ui/dom';
+// @deno-types="npm:@types/react@^18.2.0"
 import type * as React from 'react';
 
 export interface ArrowOptions {

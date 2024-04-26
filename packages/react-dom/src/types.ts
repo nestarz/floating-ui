@@ -3,11 +3,12 @@ import type {
   ComputePositionReturn,
   VirtualElement,
 } from '@floating-ui/dom';
+// @deno-types="npm:@types/react@^18.2.0"
 import type * as React from 'react';
 
-export type {ArrowOptions} from './arrow';
-export {arrow} from './arrow';
-export {useFloating} from './useFloating';
+export type {ArrowOptions} from './arrow.ts';
+export {arrow} from './arrow.ts';
+export {useFloating} from './useFloating.ts';
 export type {
   AlignedPlacement,
   Alignment,

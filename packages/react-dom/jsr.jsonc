@@ -1,0 +1,23 @@
+{
+    "name": "@bureaudouble-forks/floating-ui-react-dom",
+    "version": "0.0.2",
+    "nodeModulesDir": false,
+    "compilerOptions": {
+      "noErrorTruncation": true,
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "dom.asynciterable",
+        "deno.ns"
+      ]
+    },
+    "imports": {
+      "react": "npm:react@^18.2.0",
+      "@floating-ui/dom": "npm:@floating-ui/dom@1.6.3",
+      "use-isomorphic-layout-effect": "jsr:@bureaudouble-forks/use-isomorphic-layout-effect@0.0.2"
+    },
+    "exports": {
+      ".": "./src/index.ts"
+    }
+  }
+  
